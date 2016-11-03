@@ -1,0 +1,93 @@
+<!-- use !-- to start a comment and -- to end a comment -->
+<!DOCTYPE html> <!--DOCTYPE tells the web browser that you're gonna be sending html code-->
+<!-- lang="en" Shows you're gonna be using english -->
+<html lang="en">
+    <head> <!--Container for data --> <!--Most tags open and close, this is an open tag-->
+    <title>Imagine Dragons Tribute</title> <!--Title of web page -->
+    <link rel="stylesheet" href="_css/main.css"> <!--Links to cascading style sheet for web design-->
+    </head><!-- This is an example of a closing tag -->
+<body> <!--Body contains all the content that you see in the web page -->
+    <header> <!--header is introduction to webpage, usually put logo/nav bar/both, at the top of every webpage-->
+        <!-- id allows you to reference that section in href or in css page -->
+        <a href="#top" id="backToTop" >Back to Top &nbsp;</a> <!--&nbsp adds an empty white space, html doesn't recognize more than one space -->
+        <!-- img src="" to provide an image-->
+        <!-- wrap an image around an <a> tag to make image clickable, a is an anchor tag and provides hyperlink, use href="" to indicate link destination-->
+        <!--can link to a folder or outside web page -->
+        <figure><a href="index.html"  id="top"><img src="_images/imagine-dragons-logo.png"></a> <!--lets you click logo to lead back to home page-->
+        </figure><!--Put figure to show tat you intend to display content, does not affect document if left in or not -->
+    <nav> <!--Shows you're gonna be creating a navigation bar for your webpage-->
+        <ul> <!--Creates an unordered list for webpages -->
+            <li><a href="index.html">Home</a></li> <!--List item for unordered list, wrap around anchor tag to create a hyperlink --> 
+            <li><a href="#about">About</a></li> <!--Use # to call an ID -->
+            <li><a href="#members">Band Members</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#pictures">Pictures</a></li>
+        </ul>
+    </nav>
+    </header>
+<main><!--Shows that the main content of the webpage is gonna start to be displayed-->
+    <h1 id="about">About</h1> <!--heading 1-6, used to show hierarchy, h1 is most important h6 is least important -->
+        <!--DONT USE HEADING TYPE FOR LOOKS, USE FOR HIERARCHY ONLY; css is used for looks -->
+        <!--<p> is for paragraph-->
+        <!-- Lorem Ipsum is used just as place holder text-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada velit id sapien porttitor lobortis. Nam non ornare orci. Mauris sit amet eros id magna sollicitudin semper eget at leo. Duis sollicitudin sapien metus, sit amet tincidunt tortor porta ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer pellentesque rhoncus congue. Vivamus ut est mauris. Praesent tincidunt semper elit, et fringilla sem malesuada in. In vel consequat mauris, vitae pellentesque nisi. Etiam ornare dui quis tellus auctor venenatis. Fusce accumsan ante massa, ac auctor urna varius et. Etiam sit amet aliquam nibh, et varius nisl. Morbi convallis vulputate lorem, sagittis facilisis velit faucibus nec.<br><br>
+        <!--html doesnt recognize extra white space, so either use &nbsp; for extra space or <br> for line break-->
+        Aliquam luctus, dui sit amet ullamcorper tincidunt, magna quam feugiat mauris, vitae ornare odio nisl et arcu. Proin condimentum eu ipsum ac auctor. Maecenas tincidunt ipsum augue, at pharetra est pharetra ut. Fusce eu nisi justo. Ut ultrices, dui et feugiat pellentesque, nunc nibh fringilla sapien, sed blandit augue ipsum et justo. In commodo finibus lectus in luctus. Quisque semper pulvinar lacinia. Mauris eu porttitor eros. Proin eget nisi malesuada, eleifend lacus ac, porta nibh. Donec quis facilisis metus. Donec tempor, risus quis mattis vulputate, tortor purus dictum neque, nec commodo arcu enim et leo. Phasellus viverra suscipit sapien. Pellentesque commodo dictum eros. Aenean aliquam ornare massa. Nullam id ligula eleifend arcu dapibus sollicitudin.<br><br>
+
+        Vestibulum gravida vitae tellus luctus ullamcorper. Cras venenatis tincidunt augue sit amet varius. Ut semper hendrerit scelerisque. Nunc ornare finibus arcu. Fusce consequat porta tincidunt. Cras dignissim nisi at ante ultricies pellentesque. Vivamus dignissim nisi sed luctus elementum. Ut semper sagittis augue, ac auctor justo posuere vel. Nunc at ex posuere, vulputate lorem a, faucibus diam. Curabitur id sollicitudin ex.<br><br>
+
+        Proin libero odio, feugiat eu velit eu, maximus faucibus nunc. Proin lorem felis, luctus nec porttitor eu, euismod at urna. Sed sit amet turpis est. Quisque fermentum ullamcorper nisi, lobortis placerat quam. Vivamus euismod lorem nibh, at laoreet ex elementum vitae. Sed ac varius nisi. Fusce eu metus fringilla, tristique augue ac, tempor odio. Proin egestas urna nec dictum suscipit. Pellentesque egestas nec dui et convallis. Nunc nec lacus libero. In massa urna, accumsan vel dapibus sed, efficitur at tortor. Suspendisse volutpat mi dolor, eget laoreet est semper in. Pellentesque vel purus at lorem cursus vehicula eget quis justo. Vivamus ipsum tortor, semper vel nisl ac, congue consequat elit. Sed enim erat, lobortis non sollicitudin vitae, accumsan convallis purus.<br><br>
+
+        Aenean vestibulum ante sit amet ex rhoncus, a interdum quam pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus in mollis dolor, facilisis tempus lorem. Nam vitae bibendum nulla. Pellentesque sit amet nunc feugiat, hendrerit neque in, elementum nunc. Phasellus sit amet lacinia metus. Integer vel tempor erat, in accumsan turpis. Mauris interdum hendrerit arcu, in facilisis lectus maximus nec. Aliquam erat volutpat. Quisque elementum interdum libero non sodales. Curabitur tempor convallis consequat. Sed vel ornare lacus. In finibus purus ut sollicitudin aliquam. Nulla facilisi. Donec gravida porttitor eros, sit amet tincidunt sem luctus vitae. Mauris luctus cursus augue, vitae pretium dolor ultricies ac.</p>
+    <h1 id="members">Band Members</h1>
+    <table> <!--Creating a table-->
+        <tr> <!--<tr>Creates another row for the table -->
+            <th>Members</th> <!--<th>Creates a table heading -->
+            <th>Role</th>
+        </tr>
+        <tr><!--Creates another row for the table -->
+            <td>Dan Reynolds</td><!--<td> Creates table data under first table heading created ie. Members-->
+            <td>Singer</td><!--Creates second table data under second table heading created i.e. Role-->
+        </tr>
+        <tr>
+            <td>Wayne Sermon</td>
+            <td>Guitar</td>
+        </tr>
+        <tr>
+            <td>Daniel Platzman</td>
+            <td>Percussion</td>
+        </tr>
+        <tr>
+            <td>Ben Mckee</td>
+            <td>Bass</td>
+        </tr>
+    </table>
+    <h1 id="news">News</h1>
+        <h2>Upcoming Concert</h2> <!--<h2>Upcoming Concert becomes a sub section of <h1>News -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada velit id sapien porttitor lobortis. Nam non ornare orci. Mauris sit amet eros id magna sollicitudin semper eget at leo. Duis sollicitudin sapien metus, sit amet tincidunt tortor porta ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer pellentesque rhoncus congue. Vivamus ut est mauris. Praesent tincidunt semper elit, et fringilla sem malesuada in. In vel consequat mauris, vitae pellentesque nisi. Etiam ornare dui quis tellus auctor venenatis. Fusce accumsan ante massa, ac auctor urna varius et. Etiam sit amet aliquam nibh, et varius nisl. Morbi convallis vulputate lorem, sagittis facilisis velit faucibus nec.<br><br>
+
+            Aliquam luctus, dui sit amet ullamcorper tincidunt, magna quam feugiat mauris, vitae ornare odio nisl et arcu. Proin condimentum eu ipsum ac auctor. Maecenas tincidunt ipsum augue, at pharetra est pharetra ut. Fusce eu nisi justo. Ut ultrices, dui et feugiat pellentesque, nunc nibh fringilla sapien, sed blandit augue ipsum et justo. In commodo finibus lectus in luctus. Quisque semper pulvinar lacinia. Mauris eu porttitor eros. Proin eget nisi malesuada, eleifend lacus ac, porta nibh. Donec quis facilisis metus. Donec tempor, risus quis mattis vulputate, tortor purus dictum neque, nec commodo arcu enim et leo. Phasellus viverra suscipit sapien. Pellentesque commodo dictum eros. Aenean aliquam ornare massa. Nullam id ligula eleifend arcu dapibus sollicitudin.<br><br>
+
+            Vestibulum gravida vitae tellus luctus ullamcorper. Cras venenatis tincidunt augue sit amet varius. Ut semper hendrerit scelerisque. Nunc ornare finibus arcu. Fusce consequat porta tincidunt. Cras dignissim nisi at ante ultricies pellentesque. Vivamus dignissim nisi sed luctus elementum. Ut semper sagittis augue, ac auctor justo posuere vel. Nunc at ex posuere, vulputate lorem a, faucibus diam. Curabitur id sollicitudin ex. <br><br></p>
+
+        <h2>Fan Meetups</h2> <!--<h2>Fan meetups becomes a subsection of <h1>News-->
+            <p>Proin libero odio, feugiat eu velit eu, maximus faucibus nunc. Proin lorem felis, luctus nec porttitor eu, euismod at urna. Sed sit amet turpis est. Quisque fermentum ullamcorper nisi, lobortis placerat quam. Vivamus euismod lorem nibh, at laoreet ex elementum vitae. Sed ac varius nisi. Fusce eu metus fringilla, tristique augue ac, tempor odio. Proin egestas urna nec dictum suscipit. Pellentesque egestas nec dui et convallis. Nunc nec lacus libero. In massa urna, accumsan vel dapibus sed, efficitur at tortor. Suspendisse volutpat mi dolor, eget laoreet est semper in. Pellentesque vel purus at lorem cursus vehicula eget quis justo. Vivamus ipsum tortor, semper vel nisl ac, congue consequat elit. Sed enim erat, lobortis non sollicitudin vitae, accumsan convallis purus.<br><br>
+
+            Aenean vestibulum ante sit amet ex rhoncus, a interdum quam pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus in mollis dolor, facilisis tempus lorem. Nam vitae bibendum nulla. Pellentesque sit amet nunc feugiat, hendrerit neque in, elementum nunc. Phasellus sit amet lacinia metus. Integer vel tempor erat, in accumsan turpis. Mauris interdum hendrerit arcu, in facilisis lectus maximus nec. Aliquam erat volutpat. Quisque elementum interdum libero non sodales. Curabitur tempor convallis consequat. Sed vel ornare lacus. In finibus purus ut sollicitudin aliquam. Nulla facilisi. Donec gravida porttitor eros, sit amet tincidunt sem luctus vitae. Mauris luctus cursus augue, vitae pretium dolor ultricies ac.
+            </p>
+    <h1 id="pictures">Pictures</h1>
+        <!--provides an imaged saved in the images folder, can add width and height to adjust size; measured in pixels -->
+        <!--Can use figcaption tag to caption the figure/image-->
+        <!-- alt tag displays what is written if image doesn't load, good habit to have to always alt images -->
+        <figure><img src="_images/dan-kneeling.png" alt="dan kneeling" width="250" height="150"></figure>
+        <figcaption>Dan Kneeling</figcaption>
+        <figure><img src="_images/concert.jpg" alt="concert" width="250" height="150"></figure>
+        <figcaption>Concert</figcaption>        
+        <figure><img src="_images/smokeAndMirrors.jpg" alt="Smoke and Mirrors" width="250" height="150"></figure>
+        <figcaption>Smoke and Mirrors Album Cover</figcaption>
+</main> <!-- Shows main content of page is done being displayed -->
+    <footer> <!--Footers are usually displayed at the bottom of every webpage -->
+        <a href="spotify:artist:53XhwfbYqKCa1cC15pYq2q"><br>Click here for spotify page</a> <!--Again, a is anchor tag, provides link with href-->
+    </footer>
+</body><!--closing tags-->
+</html>

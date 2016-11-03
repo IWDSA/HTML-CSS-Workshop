@@ -1,0 +1,42 @@
+/*Calls backToTop ID and fixes the text at the top right of the screen
+and follows while the user scrolls*/
+#backToTop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+
+/*Implements a background image by using a url from a website*/
+/*Also changes the font to floralwhite so its easier to read*/
+body {
+    background-image: url(http://kuberadio.com/wp-content/uploads/2015/02/imagine-dragons-smoke-mirrors-uten-tekst1.jpg);
+    color:floralwhite;
+}
+
+/*The next 3 functions will create the navigation bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*You can enter more than one tag to go more specific to what you want to edit*/
+nav ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Changes all link text to white*/
+a {
+    color: white;
+}
